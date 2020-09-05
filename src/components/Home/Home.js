@@ -39,7 +39,7 @@ const Home = () => {
                         Demo Social Media
                     </Typography>
                     <Button color="inherit"><Link to="/home">Home</Link></Button>
-                    <Button color="inherit"><Link to="/post">About</Link></Button>
+                    <Button color="inherit"><Link to="/">About</Link></Button>
                     <Button color="inherit"><Link to="/home">Contact</Link></Button>
                     </Toolbar>
                 </AppBar>
