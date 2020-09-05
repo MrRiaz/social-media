@@ -1,0 +1,10 @@
+.comments{
+    display: flex;
+}
+
+.comments img{
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-right: 10px;
+}
