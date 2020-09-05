@@ -6,7 +6,7 @@ import Grid from '@material-ui/core/Grid';
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    flexGrow: 3,
+    flexGrow: 1,
   },
   paper: {
     padding: theme.spacing(3),
@@ -20,39 +20,7 @@ const Comment = (props) => {
     const classes = useStyles();
     return (
         <div className={classes.root}>
-            <Grid container spacing={3}>
-                {/* <Grid item xs={12}>
-                <Paper className={classes.paper}>xs=12</Paper>
-                </Grid> */}
-                {/* <Grid item xs={6}>
-                <Paper className={classes.paper}>
-                <div className="comments">
-                    <div>
-                        <img src={img} alt=""/>
-                    </div>
-                    <div>
-                        <h3>name: {name}</h3>
-                        <p>{email}</p>
-                        <p>{body}</p>
-                    </div>
-                </div>
-                </Paper>
-                </Grid> */}
-                {/* <Grid item xs={6}>
-                <Paper className={classes.paper}>
-                <div className="comments">
-                    <div>
-                        <img src={img} alt=""/>
-                    </div>
-                    <div>
-                        <h3>name: {name}</h3>
-                        <p>{email}</p>
-                        <p>{body}</p>
-                    </div>
-                </div>
-                </Paper>
-                </Grid> */}
-                <Grid item xs={4}>
+                <Grid md={3} sm={12} >
                 <Paper className={classes.paper}>
                 <div className="comments">
                     <div>
@@ -66,17 +34,6 @@ const Comment = (props) => {
                 </div>
                 </Paper>
                 </Grid>
-            </Grid>
-
-            {/* <div>
-                <img src={img} alt=""/>
-            </div>
-            <div>
-                <h3>name: {name}</h3>
-                <p>{email}</p>
-                <p>{body}</p>
-            </div> */}
-            
         </div>
     );
 };

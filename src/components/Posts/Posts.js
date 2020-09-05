@@ -52,9 +52,7 @@ const Posts = (props) => {
                 </CardContent>
                 <CardActions>
                    <Button variant="contained"  size="small" onClick={() => handleClick(id)}>Learn More</Button>
-                   {/* <Link to={`/posts/${id}`}>
-                       Learn More
-                   </Link> */}
+                   {/* <Link to={`//posts/${id}`}> <Button>Learn More</Button> </Link> */}
                 </CardActions>
             </Card>
         </div>
